@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SingleNews = ({singleNews,handleSpendTime}) => {
+const SingleNews = ({singleNews,handleSpendTime,handleBookMark}) => {
     const {image,title,authorName,uploadTime,readingTime,authorImg
     } = singleNews;
     return (
@@ -40,8 +40,9 @@ const SingleNews = ({singleNews,handleSpendTime}) => {
     <p className='me-3'>#programming</p>
     <p>#phython</p>
 </div>
-<p className='ms-3'><a class="link-opacity-100" href="#">mark as read</a></p>
+<p  className='ms-3'><a onClick={()=>handleBookMark(title)} class="link-opacity-100" href="#ok">mark as read</a></p>
 </div>
+
 
 
 

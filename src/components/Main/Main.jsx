@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useEffect } from 'react';
 import SingleNews from '../SingleNews/SingleNews';
 
-const Main = ({handleSpendTime}) => {
+const Main = ({handleSpendTime,handleBookMark}) => {
     // console.log(singleNews);
 
 
@@ -21,7 +21,11 @@ const Main = ({handleSpendTime}) => {
     return (
         <div>
              {
-        news.map(singleNews => <SingleNews singleNews={singleNews} handleSpendTime = {handleSpendTime}></SingleNews>)
+        news.map(singleNews => <SingleNews
+             singleNews={singleNews}
+              handleSpendTime = {handleSpendTime}
+              handleBookMark={handleBookMark}
+              ></SingleNews>)
        }
 
         </div>
