@@ -12,6 +12,7 @@ const Main = ({handleSpendTime,handleBookMark}) => {
     .then(res=>res.json())
     .then(data=>setNews(data))
   },[])
+  
 
     // const {image,title,authorName,uploadTime,readingTime,authorImg
     // } = singleNews;
@@ -24,9 +25,11 @@ const Main = ({handleSpendTime,handleBookMark}) => {
         news.map(singleNews => <SingleNews
              singleNews={singleNews}
               handleSpendTime = {handleSpendTime}
+      
               handleBookMark={handleBookMark}
               ></SingleNews>)
        }
+       {/* console.log(singleNews); */}
 
         </div>
     )};

@@ -1,24 +1,29 @@
 [
     {
     "id":1,
+    "bookMark" :1,
     "image":"https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=740&t=st=1680192674~exp=1680193274~hmac=d239d38f21ca2fe72bc355aefede461ef50144446ccd11d687c20583d00b9ee6",
     "authorImg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9JPgOPUjNPP-iSnjnLN5AHVCGj2ZzlK8kdbIWXuUaKggQI1uzc6Zb_A5dbt44JgMp8Vc&usqp=CAU",
     "authorName": "Farhan",
     "uploadTime" : "16 February 2022",
-    "readingTime": 40,
-    "title": "How do beginners learn programming?"
+    "readingTime": 14,
+    "title": "How do beginners learn programming?",
+    "postTimeAgo": "5 days"
 
 
 },
 {
 
     "id":2,
+    "bookMark" :1,
     "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?w=740&t=st=1680192977~exp=1680193577~hmac=73ea33ce35b6f425d9d7d43dab7f6edefd28ace7e8745f0126b67b1856ec4a30",
     "authorImg":"https://tricky-photoshop.com/wp-content/uploads/2017/08/final-1.png",
     "authorName": "Mrs.Kola Khan",
     "uploadTime" : "1 February 2021",
-    "readingTime": 12,
-    "title": "What is programming skills?"
+    "readingTime": 25,
+    "title": "What is programming skills?",
+    "postTimeAgo": "12 days"
+
 
 
 
@@ -28,33 +33,39 @@
 
 
     "id":3,
+    "bookMark" :1,
     "image":"https://img.freepik.com/free-photo/programming-background-with-html-text_23-2150040420.jpg?w=740&t=st=1680192808~exp=1680193408~hmac=6c5fd14bca7f3af15633e02dd1a21523a2ed8af8405918519d9aca8f2a0dd09b",
     "authorImg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloBUIKu5P9lvNvUO8FktI19Lv0JsFM1HLH80mYeeTxJTBWKvGVUc-W6I9e4W3MPsiKtQ&usqp=CAU",
     "authorName": "Mr.Abul Khan",
     "uploadTime" : "1 Arpil 2020",
-    "readingTime": 36,
-    "title": "What are the 4 types of programming?"
+    "readingTime": 24,
+    "title": "What are the 4 types of programming?",
+    "postTimeAgo": "7 days"
 
 
 
 },{
     
     "id":4,
+    "bookMark" :1,
     "image":"https://img.freepik.com/free-photo/programming-background-with-html-text_23-2150040420.jpg?w=740&t=st=1680192808~exp=1680193408~hmac=6c5fd14bca7f3af15633e02dd1a21523a2ed8af8405918519d9aca8f2a0dd09b",
     "authorImg":"https://e7.pngegg.com/pngimages/291/172/png-clipart-bill-gates-quotes-bill-gates-quotes-quotations-famous-quotes-the-world-s-billionaires-microsoft-bill-gates-bill-gates-quotes-thumbnail.png",
     "authorName": "Mrs.Renu Khan",
     "uploadTime" : "31 December 2021",
-    "readingTime": 41,
-    "title": "What is programming skills?"
+    "readingTime": 11,
+    "title": "What is programming skills?",
+    "postTimeAgo": "54 days"
 },{
     
     "id":5,
+    "bookMark" :1,
     "image":"https://img.freepik.com/free-photo/double-exposure-caucasian-man-virtual-reality-vr-headset-is-presumably-gamer-hacker-cracking-code-into-secure-network-server-with-lines-code_146671-18929.jpg?w=826&t=st=1680192723~exp=1680193323~hmac=b8e1eb9113b0ba0768f12e7d230e6a57eace0728719a12018285d5355befe278",
     "authorImg":"https://c8.alamy.com/comp/2ATH5M7/colourful-male-face-circle-in-flat-style-cartoon-vector-icon-modern-design-men-face-person-silhouette-avatar-profile-round-portrait-isolated-2ATH5M7.jpg",
     "authorName":"Debashis Mishra",
     "uploadTime" : "1 january 2021",
-    "readingTime": 12,
-    "title": "What is React?"
+    "readingTime": 32,
+    "title": "What is React?",
+    "postTimeAgo": "16 days"
 }
 
 
