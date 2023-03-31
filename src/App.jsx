@@ -17,7 +17,7 @@ function App() {
   const handleBookMark = (fun) => {
     if (blogs.find(a=>a.id === fun.id)) {
       console.log('alart');
-      toast("you can't reselect");
+      toast("you can't select twice");
 
       
     } else {
