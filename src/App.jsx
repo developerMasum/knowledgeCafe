@@ -17,7 +17,7 @@ function App() {
   const handleBookMark = (fun) => {
     if (blogs.find(a=>a.id === fun.id)) {
       console.log('alart');
-      toast("Wow so easy!");
+      toast("you can't reselect");
 
       
     } else {
@@ -27,29 +27,7 @@ function App() {
     }
   };
   console.log(blogs);
-  // {
-  //   blogs.map(blog=><Cart blog={blog}> </Cart>)
-  // }
 
-
-
-
-
-  // if (bookMarked.find((bm) => bm.id === data.id)) {
-  //   console.log("false");
-  // } else {
-  //   setMarked(...bookMarked, data);
-  //   console.log("ok");
-  // }
-
-  // const handleAddBooMark  = (news)=>{
-  //   if(bookmark.find(bm=>bm.id === news.id)){
-  //     // already exist
-  //     // Show warning message
-  //   }else{
-  //     setBookmark([...bookmark, news])
-  //   }
-  // }
 
 
 
