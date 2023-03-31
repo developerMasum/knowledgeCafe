@@ -4,29 +4,37 @@ import './App.css'
 import Cart from './components/Cart/Cart';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
+import SingleNews from './components/SingleNews/SingleNews';
+import Blog from './components/Blog/Blog';
 
 
 
 function App() { 
 
 
-  const[spendTime , SetSpendTime] = useState('')
+  const[spendTime , SetSpendTime] = useState('0')
   const [title,setTitle] = useState('')
 
   
 const handleBookMark =(newsTitle)=>{
-  const previousTitle = JSON.parse(localStorage.getItem("newsTitle"))
- if (previousTitle) {
-  const total = previousTitle + newsTitle;
+  console.log('ok');
+
+
+
+
+
+  // const previousTitle = JSON.parse(localStorage.getItem("newsTitle"))
+
+//  if (previousTitle) {
+
+// localStorage.setItem.JSON.stringify('newsTitle',total);
+//   setTitle(total)
   
-  localStorage.setItem('newsTitle',total);
-  setTitle(total)
+//  } else {
+//   localStorage.setItem.JSON.stringify('newsTitle',newsTitle);
+//   setTitle(newsTitle)
   
- } else {
-  localStorage.setItem('newsTitle',newsTitle);
-  setTitle(newsTitle)
-  
- }
+//  }
 }
 
   const handleSpendTime = (time) =>{
@@ -65,7 +73,9 @@ const handleBookMark =(newsTitle)=>{
       </div>
      <div className='row'>
      <div className='col-md-8'>
-       <Main handleSpendTime = {handleSpendTime}
+       <Main
+       id={SingleNews.id}
+       handleSpendTime = {handleSpendTime}
        handleBookMark={handleBookMark}
        > </Main>
       </div>
@@ -73,6 +83,10 @@ const handleBookMark =(newsTitle)=>{
       <div className="col-md-4">
         <Cart spendTime={spendTime} title = {title} ></Cart>
       </div>
+     </div>
+
+     <div className='mt-5'>
+      <Blog></Blog>
      </div>
       
     </div>
