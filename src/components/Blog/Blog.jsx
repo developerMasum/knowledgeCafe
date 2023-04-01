@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="container text-center">
+    <div className="container text-center p-5">
       <div className=" ">
         <h2> 1.What is the Difference Between Props and Sate ?</h2>
         <p>
@@ -60,7 +60,7 @@ const Blog = () => {
           efficiently update the actual DOM in response to changes in the
           underlying data.
           <br />
-          <ul>
+          
             <li>
               Components: React applications are built using components. Each
               component is a self-contained unit of code that represents a part
@@ -103,7 +103,7 @@ const Blog = () => {
               the new version, and then applying the minimum number of changes
               necessary to update the actual DOM.
             </li>
-          </ul>
+          
         </p>
       </div>
     </div>
