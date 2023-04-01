@@ -9,7 +9,7 @@ const Main = ({handleSpendTime,handleBookMark}) => {
     const [news,setNews] = useState([])
   useEffect( ()=>{
     fetch('data.json')
-    .then(res=>res.json())
+    .then(res=>res.json()) 
     .then(data=>setNews(data))
   },[])
   
