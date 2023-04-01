@@ -11,7 +11,7 @@ const Cart = ({ spendTime, blogs }) => {
       <div className="spend-time">
         {" "}
         <div className="card">
-          <div className="card-body bg-info bg-opacity-50 shadow  rounded">
+          <div className="card-body bg-info bg-opacity-100 shadow  rounded text-white">
             <h5 className="card-title">
               Spent time on read : {spendTime} minutes
             </h5>
@@ -19,7 +19,7 @@ const Cart = ({ spendTime, blogs }) => {
         </div>
       </div>
 
-      <div className="card shadow-2xl mt-5 ">
+      <div className="card shadow-2xl mt-5  ">
         <div className="card-body bg-secondary bg-opacity-50 shadow rounded ">
           <h3>Bookmarked Blogs :{blogs.length} </h3>
         </div>

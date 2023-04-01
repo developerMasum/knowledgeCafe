@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 
-const SingleNews = ({ singleNews, handleSpendTime,handleBookMark }) => {
+const SingleNews = ({ singleNews, handleSpendTime, handleBookMark }) => {
   const {
     image,
-    id,
     postTimeAgo,
     title,
     authorName,
@@ -33,7 +32,10 @@ const SingleNews = ({ singleNews, handleSpendTime,handleBookMark }) => {
               <p className=" me-3 text-end py-2  "> {readingTime}minutes</p>
             </div>
 
-            <div style={{ cursor: "pointer" }} onClick={() => handleBookMark(singleNews)}>
+            <div
+              style={{ cursor: "pointer" }}
+              onClick={() => handleBookMark(singleNews)}
+            >
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

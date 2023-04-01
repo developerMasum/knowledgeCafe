@@ -14,6 +14,7 @@ function App() {
   const [blogs, setBlogs] = useState([]);
 
   const handleBookMark = (fun) => {
+    // console.log(fun);
     if (blogs.find((a) => a.id === fun.id)) {
       toast("You Have Already Bookmarked This Blog!!!!");
     } else {
