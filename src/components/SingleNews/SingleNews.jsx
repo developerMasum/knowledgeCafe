@@ -9,7 +9,7 @@ const SingleNews = ({ singleNews, handleSpendTime, handleBookMark }) => {
     uploadTime,
     readingTime,
     authorImg,
-  } = singleNews;
+  } = singleNews; 
 
   return (
     <div>
